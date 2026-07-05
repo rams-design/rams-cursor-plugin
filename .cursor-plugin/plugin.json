@@ -1,0 +1,20 @@
+{
+  "name": "rams",
+  "description": "Design review for UI code: accessibility (WCAG 2.1) and visual design checks with concrete fixes, from rams.ai",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rams"
+  },
+  "homepage": "https://www.rams.ai/?utm_source=skill&utm_medium=cursor-plugin",
+  "repository": "https://github.com/rams-design/rams-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "design-review",
+    "accessibility",
+    "wcag",
+    "ui",
+    "design-system",
+    "code-review"
+  ],
+  "logo": "assets/logo.png"
+}
