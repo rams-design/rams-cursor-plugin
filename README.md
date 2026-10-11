@@ -1,6 +1,6 @@
-# Rams — Design Review for Cursor
+# Rams: design review for Cursor
 
-Accessibility (WCAG 2.1) and visual design review for UI code, with concrete
+Accessibility (WCAG 2.2) and visual design review for UI code, with concrete
 fixes. Made by [rams.ai](https://www.rams.ai/?utm_source=skill&utm_medium=cursor-plugin).
 
 ## Install
@@ -20,14 +20,16 @@ labels, keyboard access, focus, contrast, touch targets) and visual design
 ## Canonical source
 
 The review content is maintained at
-[rams.ai/rams.md](https://rams.ai/rams.md) — that file is canonical. A nightly
+[rams.ai/rams.md](https://rams.ai/rams.md). That file is canonical. A nightly
 workflow syncs this repo to it, so the plugin never drifts.
 
 ## The full engine
 
 This plugin runs locally as a heuristic review. The hosted engine at
 [rams.ai](https://www.rams.ai/?utm_source=skill&utm_medium=cursor-plugin)
-reviews every pull request with 119 scored rules, verified re-reviews, and
-one-click fix suggestions.
+reviews every pull request against the full scored rule set (live list at
+[rams.ai/rules](https://www.rams.ai/rules)), with verified re-reviews and
+one-click fix suggestions. To run it from your agent while you edit, connect
+the Rams MCP: [rams.ai/setup](https://www.rams.ai/setup?utm_source=skill&utm_medium=cursor-plugin).
 
 MIT licensed.
